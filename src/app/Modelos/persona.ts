@@ -1,8 +1,8 @@
 export class Persona {
-    name: string="1"; 
-    lastName: string=""; 
-    sex:string="";
-    age:number=0; 
+    name:string="Ruben";
+    lastName:string="Hernandez Barraza";
+    sex:string="Masculino";
+    age:number=18;
 
    /* public get setName(): string{
         return this.name;
