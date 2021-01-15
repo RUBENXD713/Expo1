@@ -1,13 +1,10 @@
 export class Persona {
-    static setName(): string | undefined {
-      throw new Error('Method not implemented.');
-    }
-    name: string = "Ruben";
-    lastName: string = "Hernandez Barraza";
-    sex:string = "Masculino";
-    age:string = "18";
+    name: string="1"; 
+    lastName: string=""; 
+    sex:string="";
+    age:number=0; 
 
-    public get setName(): string{
+   /* public get setName(): string{
         return this.name;
     }
     public get setLastName(): string{
@@ -18,6 +15,6 @@ export class Persona {
     }
     public get setAge(): string{
         return this.age;
-    }
+    }*/
     
 }
